@@ -1,5 +1,6 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -61,11 +62,10 @@ public class BrowseFoodJointsActivity extends AppCompatActivity
         final ListView listView = (ListView) findViewById(R.id.foodJointsListView);
 
 
-
         Toast.makeText(getApplicationContext(), "Signed is as " + user.getEmail(), Toast.LENGTH_SHORT).show();
-        String netid=user.getEmail().substring(0,9);
-        View hView =  navigationView.getHeaderView(0);
-        TextView nav_user = (TextView)hView.findViewById(R.id.currUserID);
+        String netid = user.getEmail().substring(0, 9);
+        View hView = navigationView.getHeaderView(0);
+        TextView nav_user = (TextView) hView.findViewById(R.id.currUserID);
         nav_user.setText(user.getEmail());
 
         hView.setOnClickListener(new View.OnClickListener() {
@@ -75,24 +75,37 @@ public class BrowseFoodJointsActivity extends AppCompatActivity
             }
         });
 
+        final ProgressDialog progressDialog = new ProgressDialog(BrowseFoodJointsActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Fetching Food Joints...");
+        progressDialog.show();
+
 
         //Retrofit code
         CometbitesAPI cometbitesAPI = Constants.getCometbitesAPI();
 
-        Call<List<FoodJoint>> call=cometbitesAPI.getFoodJointList(user.getUid(),netid);
+        Call<List<FoodJoint>> call = cometbitesAPI.getFoodJointList(user.getUid(), netid);
         call.enqueue(new Callback<List<FoodJoint>>() {
             @Override
             public void onResponse(Call<List<FoodJoint>> call, Response<List<FoodJoint>> response) {
                 //Log.d("BrowserFJActivity", "onResponse: " + response);
-                List<FoodJoint> foodJointsList = response.body();
-                BrowseFoodJointsListAdapter adapter=new BrowseFoodJointsListAdapter(getApplicationContext(),foodJointsList);
-                listView.setAdapter(adapter);
+                if (response != null) {
+                    List<FoodJoint> foodJointsList = response.body();
+                    BrowseFoodJointsListAdapter adapter = new BrowseFoodJointsListAdapter(getApplicationContext(), foodJointsList);
+                    listView.setAdapter(adapter);
+                    progressDialog.dismiss();
+                }
+
+                progressDialog.setMessage("Unable to fetch Food joints.");
+                progressDialog.dismiss();
 
             }
 
             @Override
             public void onFailure(Call<List<FoodJoint>> call, Throwable t) {
                 //TODO add failure code
+                progressDialog.dismiss();
+                Toast.makeText(BrowseFoodJointsActivity.this, "Error:" + t.toString(), Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -103,7 +116,7 @@ public class BrowseFoodJointsActivity extends AppCompatActivity
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
                 Intent intent = new Intent(BrowseFoodJointsActivity.this, BrowseItemsActivity.class);
-                EditText fjidEditText = ((EditText) view.findViewById(R.id.fjid)) ;
+                EditText fjidEditText = ((EditText) view.findViewById(R.id.fjid));
                 String fjid = String.valueOf(fjidEditText.getText());
                 intent.putExtra("fjid", fjid);
                 startActivity(intent);
@@ -154,11 +167,11 @@ public class BrowseFoodJointsActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_orders) {
-            Intent i=new Intent(BrowseFoodJointsActivity.this,OrdersActivity.class);
+            Intent i = new Intent(BrowseFoodJointsActivity.this, OrdersActivity.class);
             startActivity(i);
             // Handle the camera action
         } else if (id == R.id.nav_payment) {
-            Intent i=new Intent(BrowseFoodJointsActivity.this,PaymentsActivity.class);
+            Intent i = new Intent(BrowseFoodJointsActivity.this, PaymentsActivity.class);
             startActivity(i);
         }
 

@@ -1,5 +1,6 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -47,6 +48,11 @@ public class PaymentsActivity extends AppCompatActivity {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         String netid=user.getEmail().substring(0,9);
         CometbitesAPI cometbitesAPI= Constants.getCometbitesAPI();
+
+        final ProgressDialog progressDialog = new ProgressDialog(PaymentsActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Fetching Payment Methods...");
+        progressDialog.show();
         Call<List<PaymentOptions>> call=cometbitesAPI.getPaymentMethods(netid);
         call.enqueue(new Callback<List<PaymentOptions>>() {
             @Override
@@ -55,13 +61,14 @@ public class PaymentsActivity extends AppCompatActivity {
                 ListView listView = (ListView) findViewById(R.id.listViewPaymentList);
                 PaymentMethodsAdapter paymentMethodsAdapter=new PaymentMethodsAdapter(getApplicationContext(), paymentOptionsList );
                 listView.setAdapter(paymentMethodsAdapter);
-
+                progressDialog.dismiss();
 
             }
 
             @Override
             public void onFailure(Call<List<PaymentOptions>> call, Throwable t) {
                 Toast.makeText(PaymentsActivity.this, "t" + t.toString(), Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
             }
         });
 

@@ -1,5 +1,6 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -64,7 +65,10 @@ public class YourCartActivity extends AppCompatActivity {
         Bundle bundle = intent.getExtras();
         final String fjid = bundle.getString("fjid");
 
-
+        final ProgressDialog progressDialog = new ProgressDialog(YourCartActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Getting your Cart...");
+        progressDialog.show();
         CometbitesAPI cometbitesAPI = Constants.getCometbitesAPI();
         Call<List<LineItem>> callLineItemList = cometbitesAPI.viewCartItems(user.getUid());
 
@@ -77,11 +81,19 @@ public class YourCartActivity extends AppCompatActivity {
                 FoodJoint foodJoint = response.body().get(Integer.parseInt(fjid) - 1);
                 restaurantView.setText(foodJoint.getName());
                 waitTimeView.setText("Estimated wait time: " + foodJoint.getWaitTime() + " min");
+
+                new android.os.Handler().postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        progressDialog.dismiss();
+                    }
+                }, 1000);
             }
 
             @Override
             public void onFailure(Call<List<FoodJoint>> call, Throwable t) {
                 Toast.makeText(YourCartActivity.this, "Error: " + t, Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
             }
         });
 
@@ -112,6 +124,8 @@ public class YourCartActivity extends AppCompatActivity {
                     subtotalView.setText("$ " + subTotal);
                     taxView.setText("$ " + tax);
                     totalView.setText("$ " + total);
+
+
             }
 
             @Override

@@ -130,7 +130,6 @@ public class PhoneVerifyActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<ResponseBody> call, Throwable t) {
-                Toast.makeText(PhoneVerifyActivity.this, t.toString(), Toast.LENGTH_SHORT).show();
             }
         });
 

@@ -1,5 +1,6 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
@@ -61,6 +62,11 @@ public class BrowseItemsActivity extends AppCompatActivity {
         CometbitesAPI cometbitesAPI = Constants.getCometbitesAPI();
         Call<List<Item>> call = cometbitesAPI.getFoodJoint(fjid);
 
+        final ProgressDialog progressDialog = new ProgressDialog(BrowseItemsActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Fetching Items...");
+        progressDialog.show();
+
         call.enqueue(new Callback<List<Item>>() {
             @Override
             public void onResponse(Call<List<Item>> call, Response<List<Item>> response) {
@@ -69,11 +75,16 @@ public class BrowseItemsActivity extends AppCompatActivity {
                 ListView listView = (ListView) findViewById(R.id.browseItemListView);
                 BrowseItemsAdapter adapter = new BrowseItemsAdapter(foodJoint, getApplicationContext());
                 listView.setAdapter(adapter);
+
+                progressDialog.dismiss();
+
             }
 
             @Override
             public void onFailure(Call<List<Item>> call, Throwable t) {
                 Toast.makeText(BrowseItemsActivity.this, "t" + t.toString(), Toast.LENGTH_SHORT).show();
+
+                progressDialog.dismiss();
 
             }
         });

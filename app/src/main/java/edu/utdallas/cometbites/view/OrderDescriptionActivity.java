@@ -1,8 +1,10 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -38,6 +40,18 @@ public class OrderDescriptionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order_description);
 
+        final ProgressDialog progressDialog = new ProgressDialog(OrderDescriptionActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Fetching Order Details...");
+        progressDialog.show();
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_order_description_inner);
+        toolbar.setTitle("Order Details");
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         final Intent intent = getIntent();
         Bundle bundle = intent.getExtras();
         final Order order = (Order) bundle.get("order");
@@ -54,6 +68,7 @@ public class OrderDescriptionActivity extends AppCompatActivity {
 
 
 
+
         Call<List<FoodJoint>> getFoodJoints = cometbitesAPI.getFoodJointList(user.getUid(), user.getEmail().substring(0, 9));
             getFoodJoints.enqueue(new Callback<List<FoodJoint>>() {
                 @Override
@@ -67,11 +82,13 @@ public class OrderDescriptionActivity extends AppCompatActivity {
 
                     OrderDescriptionAdapter orderDescriptionAdapter = new OrderDescriptionAdapter(order, getBaseContext());
                     listView.setAdapter(orderDescriptionAdapter);
+                    progressDialog.dismiss();
                 }
 
                 @Override
                 public void onFailure(Call<List<FoodJoint>> call, Throwable t) {
                     Toast.makeText(OrderDescriptionActivity.this, "Error: " + t, Toast.LENGTH_SHORT).show();
+                    progressDialog.dismiss();
                 }
             });
     }

@@ -1,5 +1,6 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -55,6 +56,11 @@ public class ItemDescriptionActivity extends AppCompatActivity {
 
         final CometbitesAPI cometbitesAPI = Constants.getCometbitesAPI();
 
+        final ProgressDialog progressDialog = new ProgressDialog(ItemDescriptionActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Asking Chef about item...");
+        progressDialog.show();
+
         Call<List<Item>> call = cometbitesAPI.getFoodJoint(fjid);
         call.enqueue(new Callback<List<Item>>() {
             @Override
@@ -65,15 +71,18 @@ public class ItemDescriptionActivity extends AppCompatActivity {
                 priceTextView.setText(Constants.UNIT + String.valueOf(item.getPrice()));
                 itemDescriptionTextView.setText(item.getDescription());
 
+                progressDialog.dismiss();
+
             }
 
             @Override
             public void onFailure(Call<List<Item>> call, Throwable t) {
                 Toast.makeText(ItemDescriptionActivity.this, "Error: " + t.toString(), Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
             }
         });
 
-        final String logoURL = bundle.getString("logoURL");
+
 
 
         ImageButton minusButton = (ImageButton) findViewById(R.id.minus_button);
@@ -106,6 +115,11 @@ public class ItemDescriptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                final ProgressDialog progressDialog = new ProgressDialog(ItemDescriptionActivity.this);
+                progressDialog.setIndeterminate(true);
+                progressDialog.setMessage("Excellent Choice. Just a moment...");
+                progressDialog.show();
+
                 TextView quantityTextView = (TextView) findViewById(R.id.quantityTextView);
                 String item_quantity = quantityTextView.getText().toString();
 
@@ -124,11 +138,13 @@ public class ItemDescriptionActivity extends AppCompatActivity {
                             Intent intent = new Intent(ItemDescriptionActivity.this, BrowseItemsActivity.class);
                             intent.putExtra("fjid", fjid);
                             startActivity(intent);
+                            progressDialog.dismiss();
                         }
 
                         @Override
                         public void onFailure(Call<String> call, Throwable t) {
                             Toast.makeText(ItemDescriptionActivity.this, "Item cannot be added to the cart. Error: " + t.toString(), Toast.LENGTH_SHORT).show();
+                            progressDialog.dismiss();
                         }
                     });
                 }

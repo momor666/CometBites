@@ -1,5 +1,6 @@
 package edu.utdallas.cometbites.view;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -42,10 +43,18 @@ public class OrdersActivity extends AppCompatActivity {
         String netid=user.getEmail().substring(0,9);
         CometbitesAPI cometbitesAPI= Constants.getCometbitesAPI();
         Call<List<Order>> call=cometbitesAPI.getOrdersForUser(netid);
+        final ProgressDialog progressDialog = new ProgressDialog(OrdersActivity.this);
+        progressDialog.setIndeterminate(true);
+        progressDialog.setMessage("Fetching Past Orders...");
+        progressDialog.show();
         call.enqueue(new Callback<List<Order>>() {
             @Override
             public void onResponse(Call<List<Order>> call, Response<List<Order>> response) {
                 List<Order> orderList = response.body();
+                progressDialog.dismiss();
+                if(orderList.size()== 0){
+                    Toast.makeText(OrdersActivity.this, "No orders yet. You are not eating to your potential.", Toast.LENGTH_LONG).show();
+                }
                 ListView listView = (ListView) findViewById(R.id.viewOrderList);
                 OrderAdapter orderAdapter=new OrderAdapter(orderList,getApplicationContext());
                 listView.setAdapter(orderAdapter);
@@ -55,6 +64,7 @@ public class OrdersActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<List<Order>> call, Throwable t) {
                 Toast.makeText(OrdersActivity.this, "t" + t.toString(), Toast.LENGTH_SHORT).show();
+                progressDialog.dismiss();
             }
         });
 

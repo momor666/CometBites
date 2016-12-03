@@ -32,10 +32,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:textSize="20sp"
-            android:text="Food Joint Name"
             android:id="@+id/restaurant_name"/>
         <TextView
-            android:text="Wait Time"
             android:gravity="center"
             android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
@@ -97,7 +95,6 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="30dp"
-                android:text="$6.49"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -121,7 +118,6 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="30dp"
-                android:text="$0.12"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -145,7 +141,6 @@
                 android:layout_centerVertical="true"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="30dp"
-                android:text="$6.61"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
