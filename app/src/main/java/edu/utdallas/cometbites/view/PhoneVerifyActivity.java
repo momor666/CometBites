@@ -151,6 +151,7 @@ public class PhoneVerifyActivity extends AppCompatActivity {
     public void onVerificationSuccess() {
         nextButton.setEnabled(true);
         Intent payment = new Intent(this,AddPaymentActivity.class);
+        payment.putExtra("parent", false);
         startActivityForResult(payment, RESULT_OK);
         setResult(RESULT_OK, null);
         finish();

@@ -39,6 +39,8 @@ public class AddPaymentActivity extends AppCompatActivity {
     private String expMonth;
     private String expYear;
 
+    private Boolean parent;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +55,8 @@ public class AddPaymentActivity extends AppCompatActivity {
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 
+
+
         cardNameView = (AutoCompleteTextView) findViewById(R.id.cardname);
         cardNumberView = (AutoCompleteTextView) findViewById(R.id.cardno);
         cvvView = (EditText) findViewById(R.id.cvv);
@@ -60,6 +64,12 @@ public class AddPaymentActivity extends AppCompatActivity {
         expYearView = (EditText) findViewById(R.id.expYear);
 
         finishButton = (Button) findViewById(R.id.finish);
+
+        final Intent intent = getIntent();
+        Bundle bundle = intent.getExtras();
+        parent = bundle.getBoolean("parent", false);
+
+
         finishButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -114,9 +124,10 @@ public class AddPaymentActivity extends AppCompatActivity {
         finishButton.setEnabled(true);
         setResult(RESULT_OK, null);
         Toast.makeText(getApplicationContext(), "Card added successfully!!", Toast.LENGTH_SHORT).show();
-        String parent =  this.getIntent().getExtras().getString("parent");
+        //String parent =  this.getIntent().getExtras().getString("parent");
+
         Intent i;
-        if(parent == null) {
+        if(!parent) {
             i = new Intent(AddPaymentActivity.this, BrowseFoodJointsActivity.class);
         }else{
             i = new Intent(AddPaymentActivity.this, PaymentsActivity.class);
