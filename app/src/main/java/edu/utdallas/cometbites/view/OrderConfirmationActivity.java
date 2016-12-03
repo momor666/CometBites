@@ -45,7 +45,7 @@ public class OrderConfirmationActivity extends AppCompatActivity {
 
         final ProgressDialog progressDialog = new ProgressDialog(OrderConfirmationActivity.this);
         progressDialog.setIndeterminate(true);
-        progressDialog.setMessage("Just a moment while I fetch your cards...");
+        progressDialog.setMessage("Just a moment while I fetch your payment methods...");
         progressDialog.show();
 
         CometbitesAPI cometbitesAPI = Constants.getCometbitesAPI();
@@ -56,9 +56,11 @@ public class OrderConfirmationActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<List<PaymentOptions>> call, Response<List<PaymentOptions>> response) {
 
-                PaymentAdapter paymentAdapter = new PaymentAdapter(getApplicationContext(), response.body());
-                spinner.setAdapter(paymentAdapter);
+                if (response != null) {
 
+                    PaymentAdapter paymentAdapter = new PaymentAdapter(getApplicationContext(), response.body());
+                    spinner.setAdapter(paymentAdapter);
+                }
                 progressDialog.dismiss();
 
             }
@@ -103,11 +105,11 @@ public class OrderConfirmationActivity extends AppCompatActivity {
 
 
     }
-    private void getETicketMethod(final ProgressDialog progressDialog)
-    {
+
+    private void getETicketMethod(final ProgressDialog progressDialog) {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        CometbitesAPI cometbitesAPI1=Constants.getCometbitesAPI();
-        Call<Ticket> call=cometbitesAPI1.getETicket(user.getUid());
+        CometbitesAPI cometbitesAPI1 = Constants.getCometbitesAPI();
+        Call<Ticket> call = cometbitesAPI1.getETicket(user.getUid());
         call.enqueue(new Callback<Ticket>() {
             @Override
             public void onResponse(Call<Ticket> call, Response<Ticket> response) {
@@ -124,25 +126,26 @@ public class OrderConfirmationActivity extends AppCompatActivity {
 
     }
 
-    private void onGetETicketSuccess(Ticket ticket){
+    private void onGetETicketSuccess(Ticket ticket) {
         Toast.makeText(getApplicationContext(), "Generating E-ticket...", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(OrderConfirmationActivity.this, EticketActivity.class);
         i.putExtra("paid", false);
-        i.putExtra("code",ticket.getCode());
-        i.putExtra("waitTime",ticket.getWaitTime());
+        i.putExtra("code", ticket.getCode());
+        i.putExtra("waitTime", ticket.getWaitTime());
         startActivity(i);
 
         finish();
     }
-    private void onGetETicketFailure(Throwable t){
-        Toast.makeText(this, "Unable to generate ticket: "+t.toString(), Toast.LENGTH_SHORT).show();
+
+    private void onGetETicketFailure(Throwable t) {
+        Toast.makeText(this, "Unable to generate ticket: " + t.toString(), Toast.LENGTH_SHORT).show();
     }
 
 
     private void placeOrder(PaymentOptions selectedPayment, final ProgressDialog progressDialog) {
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        CometbitesAPI cometbitesAPI =Constants.getCometbitesAPI();
-        Call<Ticket> call=cometbitesAPI.placeOrderWithCardDetails(user.getUid(),selectedPayment.getCardname(),selectedPayment.getCardno(),selectedPayment.getCvv(),selectedPayment.getExpdate());
+        CometbitesAPI cometbitesAPI = Constants.getCometbitesAPI();
+        Call<Ticket> call = cometbitesAPI.placeOrderWithCardDetails(user.getUid(), selectedPayment.getCardname(), selectedPayment.getCardno(), selectedPayment.getCvv(), selectedPayment.getExpdate());
         call.enqueue(new Callback<Ticket>() {
             @Override
             public void onResponse(Call<Ticket> call, Response<Ticket> response) {
@@ -167,15 +170,15 @@ public class OrderConfirmationActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), "Order placed!!!", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(OrderConfirmationActivity.this, EticketActivity.class);
         i.putExtra("paid", true);
-        i.putExtra("code",ticket.getCode());
-        i.putExtra("waitTime",ticket.getWaitTime());
+        i.putExtra("code", ticket.getCode());
+        i.putExtra("waitTime", ticket.getWaitTime());
         startActivity(i);
         finish();
 
     }
 
     private void onPlaceOrderFailure(Throwable t) {
-        Toast.makeText(this, "Unable to place order: "+t.toString(), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Unable to place order: " + t.toString(), Toast.LENGTH_SHORT).show();
 
     }
 
