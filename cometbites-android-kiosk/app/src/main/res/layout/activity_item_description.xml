@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item_description"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="edu.utdallas.cometbites.view.ItemDescriptionActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar_browse_items"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/toolbar_browse_items"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/item_image1"
+            android:layout_width="249dp"
+            android:layout_height="139dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            />
+
+        <TextView
+            android:id="@+id/item_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_image1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/textColor"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/item_description1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_name1"
+            android:layout_marginTop="18dp"
+            android:textAlignment="center"
+            android:textColor="@color/textColor"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_description1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:text="1"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+
+            />
+
+        <ImageButton
+            android:id="@+id/minus_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_description1"
+            android:layout_marginEnd="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_toStartOf="@+id/quantityTextView"
+            android:background="#FFF"
+            android:src="@drawable/minus" />
+
+        <ImageButton
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/minus_button"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/quantityTextView"
+            android:background="#FFF"
+            android:src="@drawable/plus" />
+
+        <TextView
+            android:id="@+id/item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quantityTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/textColor"
+            android:textSize="20sp"
+
+            />
+
+
+        <Button
+            android:text="Add To Cart"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+            android:id="@+id/addToCartButton"
+            android:layout_below="@+id/minus_button"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

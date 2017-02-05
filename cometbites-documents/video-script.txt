@@ -1,0 +1,60 @@
+- main problem
+- how it is done now
+- issues
+- solution: CometBites
+- An app and kiosk software system
+
+- (Zoom the app)
+- Login and Signup Features
+- Ready to connect to UTD System!
+- Use the app with your students credentials!
+- Not a student? No problem!
+- You can use both the app and kiosk!
+- Just register your phone to get notified
+- Phone Verification Feature
+- Browse UTD Food Joints
+- We estimate the wait time for you!
+- Easily select your food options
+- Show list of items for a food joint
+- Go back to another Food Joint
+- Select an item
+- Select a quantity
+- Review your order before placing it
+- Speed up payment using your CometCard
+	- Or favorite credit card
+- You can also Get an e-Ticket to pay there
+- Done
+- Get information about your order
+	- Your Invoice number
+	- (QRCode)
+	- Estimated wait time
+
+- Get notified on status change!
+
+- (Zoom Kiosk)
+- Students and guests can use in-site kiosks
+- They are placed right next to the food joints!
+- Use the same features to get your food faster
+- No lines
+- This is where the kiosks will be located
+- Go CometBites for a smart campus!
+
+- What about the administration?
+- Admin screen and features
+- Maintain foodjoint information
+- You can also manage the information used by the software system
+	(Items name, image, price, ...)
+
+- Everything is on the cloud
+- Cloud architecture
+- Interoperable and enhanceable components
+
+- Lets see it in action
+
+- Show the running app (in execution)
+	- Place order for panda
+- Show the kitchen screen
+- Show the counter screen
+
+- CometBites!
+(happy ending)

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6c6c702c89bfff3cd9e80b04d668c5e190d588c6">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.5_d476d37b38a9cdc716069cf04ce23e6abbced48f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_a845a136134bd9bfbf9fd5973e9ef4d3bd831ea6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_57b21a2d2ca92bf9029aa6820646abed188e6e44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_9b1c11ae625a7341f2542e57687eaf1ffeaeab85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_2c17eb82c13ccbac669b4fced35c38a314c11afa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_96870c6a2ec7d612f402d2f40c716502a4745e1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_94dfca9fb7e6ae833962e0f0393dc102a2e367d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_869bd58a6020e2526ad75ec5c7519350b4808297/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_99e518d80d752bba31f46cd6dbfb0e9f493a330f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_2b2359336439334c9fb9cd92bd3250c0333ec7fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_9b66d9ab734ab73e9c1afbe239bea4e5b2cc97f5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_21ff8fefb4a488cebfaf2ed29cb609c0afc2d333/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_035d17a09858c01ae53e8900f907c7e11f924fe5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_625b019e0764b9f11110e037bd241271f95c2cc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_608b11896d5461a0c8fcd8f9a2e3f61aef83c538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_3b10e9e90839c0a80f0507ef6e2042faff509262/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_a25b7f1c5e822abc85d5f3c54e05f559fa554c88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9332e0a07436286bb640063c58cc319b12da73e2">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b2cec64c91b9bacc1dd06f0db637fd636cf96dc4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_1abe7eb1ab07e73d987fb94a04b15eb50d469c7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_4b6b1885ad3da91ea115485b29394abcaf7a741f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_7a002f9b02ede3237c7ae1ce7569e1fee5a8a000/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.1.0_d661ce2ee9f20c583c559614fe9ce880826ccc80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.8.0_74315ab589197c316b63f87cf208a409a8422f28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.8.0_7761d69fd31efd1e8b67a76b7aadec7d5025650d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_93615c43d0349db0fe91f3167786a96f5c56b4e0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_56ca7c11786aafac7a132bdfcd59f6437673091b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/libs/urlimageviewhelper-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67125d743e0035a1b157ba8210c2abf1ff374e10">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/2/urlimageviewhelper-1.0.4_0a790175e091e12dbf65bfba10bf80d0eab42390/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_89e80c18f7045c2b1ec8a58e27d9ecb4518a2a78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_db8e1f15e534ca6aebcc4ccf269ce202f0c397d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_eda36bfbfb1a45a7a32f45330edd772c78bcce51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_6983212e473a430c9aac7c91d18a673fc1a3c851/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_2c9652cd2f23767d655fc5d66a82ac8bbd710e68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_7b50ea86730ebef7ff5523a8e5fcd167291a9639/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_5d7fda45349bc91bd4f0d1a9f465828be37b35e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_3cee28e3783a7fdae9893d23d741638f3b937143/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_c9ff1cd36b45d7d46567122fe86f054254896298/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.8.0_fea00328c08b9ef35a7b2f4bea25e760b2891bb0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_efd6d7c8517bf3aab02d0857fb3f4f827e5b056d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.8.0_e87c1ecd65facdfc07581a34c4d9d6793b86ae20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_13a956a7b81127ef26e5e20b81c8defea8ebbee6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_5d8a769a388855966ca991e39f43709d50e3151d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_fa4850f9e680733bbec5a2744d38b7a045ce2558/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.8.0_a11b838b447d652cbc1fc809fa7656d85802c199/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/com.koushikdutta.urlimageviewhelper/urlimageviewhelper/1.0.4/67125d743e0035a1b157ba8210c2abf1ff374e10/urlimageviewhelper-1.0.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="67125d743e0035a1b157ba8210c2abf1ff374e10">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/urlimageviewhelper-1.0.4_aca4ef629a3daf3a019a960febe53f30707ae5d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_310e53b61d1579f3f66736bfb0e1a04962c65a6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.annotation-api-1.2_43809fde5836dc7fe73e465912b19e5400cc9cce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.8.0_4550df492c883cd4b896682ad1d325fa0a89a299/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_8f7a68c4d170dd74ab9200ad1cbd5c6417bb6e84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.8.0_940458ff827dec27d4293ea5a5b68692ad2280d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_678ed5ce41f4ef6b3bc35cceb33b32e87ad95686/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_4f3c725ebc2ca746f6f852ebc0278766087b8c27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_2dc765e882807da88d50b589481cbfbc5b59652e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_3c383660ab1b92580fde78521fc2c4b62e48c465/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ad1bfd2b57cf2efee9db0c6eed45dbdfcafcc31">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a7e69f8784e853f49e2f667e9750ff6f4bceac8b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_24211e5ac1fb84504a62619f11a3935f2687e8ca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.8.0_f0aceba7c9423e8a4060314fb5b1a2239258d21d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_b1e00c20a10f65c995a68fb63833e97d9f33581c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9ff04cc3470178a44512624036751a803418c2ca">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.8.0_b607e29007da91635cf2361af1e340d7e5792d38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_321760618f26aa6f307297e0c504a3f7eae847c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_9a476e00e8a7dd9526e2a264de71d01c07321362/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57b28d7edabc14b6d87294e8ab6fe551853cf4ef">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5ed841a637d70c479ad881696bef831d32af79b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a71f64068d37e254131ded8c30fa908841ba5773">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b5d35448e904e631ad58245cc77c9bd9946cd76b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_560ebea8c2c5af49e84b90adcecc2002d5bf8d3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_0a7a34427ff0468a442a1aabb79cc95ebb8a83b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_6a1aea0a24e0989a963b981b19bb7b02c08d0b08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBitesKiosk/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_03fc3608b4eb0bcef890cb62cf65dc0f073bd2b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_b369388d2efe9155ad45a32f3d26a313d73fb9ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6b6f292b8b951dcf2ecf2b20853e3eabc7d65c48">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.8.0_cd5ea0e50df2ea6567c1dfa11e6d95e3f5bfc959/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.8.0_75f0c021518d78de2e676d05f3ca248701a59bfd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="190a642ba16d1421296a4d794606279b80039c59">
+        <dex dex="/Users/twinklesharma/AndroidStudioProjects/CometBites/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.8.0_aece2f86ba9422b63908ea8d39516f9bef82cdc2/classes.dex" />
+    </item>
+
+</items>
